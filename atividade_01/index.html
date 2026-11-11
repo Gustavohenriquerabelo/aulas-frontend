@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 
-    <header>
-        <h1 style="color: darkred; text-align: center;">The walking Date.</h1>
-        <p>Encontre seu <em>amor pós vida</em></p>
+    <header class="cabeçalho">
+        <section>
+        <h1>The walking Date.</h1>
+        <p id="abertura">Encontre seu <em>amor pós vida</em></p>
+        </section>
         <nav>
             <ul>
                 <li><a href="">inicio</a></li>
@@ -24,7 +27,8 @@
         <section id="boas-vindas">
             <h2>venha esquentar seu coração gelado</h2>
             <figure>
-                  <img src="" alt="casal de zumbis felizes">
+                  <img src="foto.jpg" alt="casal de zumbis felizes">
+                  <img id="img2" src="https://viverdeblog.com/wp-content/uploads/2014/02/imagens-para-blog.jpg" alt="segunda imagen">
                   <figcaption>Amor verdadeiro alem do túmulo</figcaption>
             </figure>
         </section>
@@ -58,13 +62,16 @@
                     <thead>
                             <th>
                                 <td>
-                                    assinatura 1
+                                   <h2>assinatura iniciante</h2> 
+                                   <p>oferece apenas o nescessário</p>
                                 </td>
                             </th>
-
+                    </thead>
+                    <thead>
                              <th>
                                 <td>
-                                    assinatura 2
+                                    <h2>assinatura plus+</h2>
+                                    <p>oferece ferramentas premium</p>
                                 </td>
                               </th>
                     </thead>
@@ -76,8 +83,8 @@
                     <fieldset>
                         <legend>Seus Dados Mortais</legend>
                         <label>
-                            <input type="text">nome zumbi 
-                            <input type="email">email
+                            nome zumbi: <input type="text">
+                            email: <input type="email">
 
                             <input type="radio" name="dieta">dieta 1
                             <input type="radio" name="dieta">dieta 2
